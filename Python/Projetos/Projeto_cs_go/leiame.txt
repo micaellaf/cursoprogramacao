@@ -1,0 +1,12 @@
+O endpoint de busca aleatoria por armas, podem ter o seguinte parametro:
+    - AWP
+    - AK-47
+    - Gloves
+    - Glock-18
+    - CZ75-Auto
+    - SG 553
+
+O endpoint de busca aleatorio por classes, podem ter o seguinte parametro:
+    - Knife
+    - Pistol
+    - Rifle
