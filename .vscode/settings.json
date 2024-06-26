@@ -1,5 +1,5 @@
 {
     "[python]": {
-        "editor.defaultFormatter": "Jota0222.multi-formatter"
+        "editor.defaultFormatter": "mikoz.black-py"
     }
 }

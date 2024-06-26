@@ -17,10 +17,16 @@ def get_random_class(item_class):
     response = requests.get(url, headers=headers)
     return response.json()
 
+
 def get_random_skin():
     url = "https://cs-skin-api.p.rapidapi.com/random"
     response = requests.get(url, headers=headers)
     return response.json()
 
-print(get_random_skin())
+
+def get_specific_skin(skin):
+    url = f"https://cs-skin-api.p.rapidapi.com/{skin}"
+    response = requests.get(url, headers=headers)
+    return response.json()
+
 
